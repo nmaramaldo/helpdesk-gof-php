@@ -30,21 +30,6 @@ Para este projeto, foram selecionados padrões que cobrem as três categorias pr
 
 ---
 
-## Estrutura do Projeto
-
-helpdesk-gof-php/
-├── public/
-│   └── index.php          # Ponto de entrada e testes da aplicação
-├── src/
-│   ├── Models/            # Classes concretas e estratégias
-│   ├── Patterns/          # Interfaces e implementações dos padrões GoF
-│   │   ├── Factory/
-│   │   ├── Strategy/
-│   │   └── Observer/
-│   └── Services/          # Lógica de negócio (Sujeito do Observer)
-├── composer.json          # Configuração de Autoload
-└── README.md              # Documentação do projeto
-
 ## Como Executar
 Certifique-se de ter o PHP 8.x e o Composer instalados (ou utilize o terminal do Laragon).
 
